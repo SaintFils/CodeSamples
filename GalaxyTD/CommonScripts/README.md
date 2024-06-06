@@ -1,0 +1,1 @@
+These scripts are used in several features for GalaxyTD.
