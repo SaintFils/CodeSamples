@@ -1,9 +1,6 @@
 ﻿using Unity.Entities;
 
-namespace ECSTest.Components
+public struct ReloadEvent : IComponentData, IEnableableComponent
 {
-    public struct ReloadEvent : IComponentData, IEnableableComponent
-    {
-        public Entity Tower;
-    }
+    public Entity Tower;
 }
