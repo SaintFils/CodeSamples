@@ -20,6 +20,5 @@ public sealed class RecyclingTag : OnReloadTag
         manager.SetComponentData(tower, attackerComponent);
     }
 
-    public override string GetDescription() => LocalizationManager.GetTranslation("Tags/Recycling")
-                                                .Replace("{param}", (decreasePercent * 100).ToString() + "<color=#1fb2de>%</color>");
+    public override string GetDescription() => LocalizationManager.GetTranslation("Tags/Recycling").Replace("{param}", (decreasePercent * 100).ToString() + "<color=#1fb2de>%</color>");
 }
